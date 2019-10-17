@@ -8,6 +8,23 @@ HappyView is a simple custom Ui to showcase the rating
 
 ## How to use
 
+Add it in your root build.gradle at the end of repositories:
+```
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+
+Add the dependency
+```
+dependencies {
+	        implementation 'com.github.godwinjk:HappyView:v1.0-beta'
+	}
+ ```
+ 
 Add the code in xml
 ```
  <com.godwin.happyratingview.HappyView
@@ -26,5 +43,8 @@ Add the code in xml
         app:pathColor="@color/darkGray2"
         app:progress="100" />
 ```
+
+## HAPPY HappyView
+
 
 ### NOTE: Project not completed
