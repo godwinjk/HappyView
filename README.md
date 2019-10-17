@@ -1,6 +1,9 @@
 # HappyView
 HappyView is a simple custom Ui to showcase the rating
 
+[![](https://jitpack.io/v/godwinjk/HappyView.svg)](https://jitpack.io/#godwinjk/HappyView)
+
+
 <img src="Image/happyView.gif" width="350">
 
 ## How to use
